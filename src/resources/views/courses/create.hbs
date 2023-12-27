@@ -1,0 +1,37 @@
+<div class="mt-4">
+  <h2 class="text-center">ADD NEW COURSE</h2>
+  <form method="POST" action="/courses/store">
+    <div class="form-group">
+      <label for="name">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        name="name"
+        placeholder="Enter name"
+      />
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input
+        type="text"
+        class="form-control"
+        id="description"
+        name="description"
+        placeholder="Enter description"
+      />
+    </div>
+    <div class="form-group">
+      <label for="description">VideoID</label>
+      <input
+        type="text"
+        class="form-control"
+        id="videoId"
+        name="videoId"
+        placeholder="Enter Video ID"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary">ADD</button>
+  </form>
+</div>
